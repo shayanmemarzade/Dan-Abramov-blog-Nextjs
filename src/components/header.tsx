@@ -12,8 +12,7 @@ export default function Header() {
             </div>
             <div className='flex mb-16 items-center'>
                 <Image src="/profile-pic.jpg" alt="Dan Abramov" className='w-14 rounded-full' width='48' height='48' />
-                <p className='pl-3 dark:text-white'>Personal blog by
-                    <a href="https://mobile.twitter.com/dan_abramov" target='_blank' className='dark:text-pink-300 text-pink-700'>Dan Abramov</a>. <br />
+                <p className='pl-3 dark:text-white'>Personal blog by <a href="https://mobile.twitter.com/dan_abramov" target='_blank' className='dark:text-pink-300 text-pink-700'>Dan Abramov</a>. <br />
                     I&nbsp;explain with words and code.</p>
             </div>
         </header>
