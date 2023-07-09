@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-button input:checked~label .ball {
+  transform: translateX(20px);
+}
+body.dark{
+  background: #000;
+}
